@@ -8,3 +8,6 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1.36", features = ["full"] }
 proxy = { path = "../proxy" }
+ui = { path = "../ui" }
+egui = "0.26.2"
+eframe = "0.26.2"
